@@ -8,6 +8,9 @@
   # If the move is invalid (else):
     # ask for a new move until a valid move is received
 #end
+
+
+
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def update_array_at_with(array, index, value)
@@ -33,3 +36,12 @@ end
 
 
 display_board(board)
+
+
+
+
+
+
+
+
+
