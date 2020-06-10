@@ -9,11 +9,6 @@ def turn(board)
     move(board, index, players_character = "X")
     display_board(board)
   end
-  
-  # If the move is valid:
-    # make the move
-    # display board to the user
- 
 end
 
 
