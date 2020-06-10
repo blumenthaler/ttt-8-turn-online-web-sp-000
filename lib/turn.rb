@@ -65,12 +65,3 @@ end
 
 display_board(board)
 turn(board)
-
-
-
-
-
-
-
-
-
