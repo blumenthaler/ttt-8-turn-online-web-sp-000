@@ -2,7 +2,10 @@ def turn(board)
   puts "Please enter 1-9:"
   # receive user input
   user_input = gets.strip
-  # convert position to an index.
+  
+  def input_to_index(user_input)
+  index = user_input.to_i - 1
+  end 
   # If the move is valid:
     # make the move
     # display board to the user
@@ -47,9 +50,7 @@ def update_array_at_with(array, index, value)
   array[index] = value
 end
 
-def input_to_index(user_input)
-  index = user_input.to_i - 1
-end 
+
 
 def move(board, index, players_character = "X")
   update_array_at_with(board, index, players_character)
