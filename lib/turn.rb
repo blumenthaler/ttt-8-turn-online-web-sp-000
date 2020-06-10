@@ -7,5 +7,4 @@ def turn
     # display board to the user
   # If the move is invalid (else):
     # ask for a new move until a valid move is received
-
 end
