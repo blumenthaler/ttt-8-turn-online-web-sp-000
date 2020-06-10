@@ -7,13 +7,13 @@ def turn(board)
     turn(board)
   else
     move(board, index, players_character = "X")
+    display_board(board)
   end
   
   # If the move is valid:
     # make the move
     # display board to the user
-  # If the move is invalid (else):
-    # ask for a new move until a valid move is received
+ 
 end
 
 
