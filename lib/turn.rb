@@ -4,7 +4,11 @@ def turn(board)
   index = input_to_index(user_input) 
   valid_move?(board, index)
   if valid_move?(board, index) == false 
-    
+    puts "Invalid move."
+    turn(board)
+  else
+    move(board, index, players_character = "X")
+  end
   
   # If the move is valid:
     # make the move
@@ -40,9 +44,6 @@ def valid_move?(board, index)
     false
   end
 end
-
-
-
 
 
 
