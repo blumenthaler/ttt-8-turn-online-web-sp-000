@@ -8,8 +8,9 @@
   # If the move is invalid (else):
     # ask for a new move until a valid move is received
 #end
+board = [" ", " ", " ", ]
 
-def display_board
+def display_board(board)
   puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
